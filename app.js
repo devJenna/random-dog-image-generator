@@ -22,6 +22,9 @@ function fetchImages() {
         .catch(function (error) {
             console.log(error);
         })
+
+    // add loading message while fetching images
+    imageContainer.innerHTML = "Loading...";
 }
 
 
